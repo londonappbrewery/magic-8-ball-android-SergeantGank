@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:background="#3F51B5"
+        android:background="@color/colorPrimaryDark"
         android:text="@string/TextView"
         android:textColor="#000000"
         android:textSize="20sp"
@@ -30,18 +30,17 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="61dp"
+        android:layout_marginBottom="26dp"
         android:background="#3F51B5"
         android:text="@string/askButton_text"
         android:textColor="#FFFFFF" />
 
     <ImageView
         android:id="@+id/image_eightball"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_width="232dp"
+        android:layout_height="183dp"
+        android:layout_above="@+id/askButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="67dp"
         android:contentDescription="@string/Image_desc"
         app:srcCompat="@drawable/ball1" />
 
